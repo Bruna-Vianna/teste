@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistematizacao</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Clínica Holística</h1>
+	<p>Descubra novas formas de se cuidar</p>
+	
+	<button class="cta-button" onclick="scrollToSection()">Saiba Mais</button>
+    <img src="head.jpg" alt="massagem" class="imagem" />
+	<section id="terapia" style="margin-top: 10vh;">
+	</section>
+    <h2>Terapias Holísticas</h2>
+	<p> As Terapias Holísticas podem ser utilizadas para tratamento de Saúde mental, Emocional, Física e Relacionamentos interpessoais</p>
+	<h3>Na clínica trabalhamos com:
+	<ol>
+		<li>Reiki</li>
+		<p> Terapia Ocupacional responsável pelo estudo dos centros energéticos e energia vital das pessoas. Ajuda na saúde física e mental do paciente</p>
+		<li>Thetahealing</li>
+		<p>Terapia na qual o paciente é conduzido durante meditação, assim facilitando o acesso ao subconsciente. Ajuda na saúde física e mental.</p>
+	</ol>	
+	<h4>Fale com nossa Equipe</h4>
+    <p>* Campos de preenchimento obrigatório</p>
+    <form action="/envio.php"
+    method="post">
+      <div>
+        <input type="text"
+        name="nome"
+        placeholder="Nome*">
+      </div>
+      <div>
+        <input type="email"
+        name="email"
+        placeholder="E-mail*">
+      </div>
+      <div>
+        <input type="text"
+        name="Cidade"
+        placeholder="Cidade">
+      </div>
+      <div>
+        <input type="text"
+        name="Estado"
+        placeholder="Estado">
+      </div>
+      <div>
+        <textarea rows="10">Mensagem</textarea>
+      </div>
+      <div>
+        <button type="submit">Enviar</button>
+      </div>
+    <footer>
+        <p>&copy; 2024 Clínica Holística fica localizada na rua XX, nºXX.
+			           Telefone para contato:XXX-XXX. 
+					   Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

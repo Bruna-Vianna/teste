@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #56a3b6;
+    text-align: center;
+}
+
+header {
+    background: #4f99e7;
+    color: rgba(12, 0, 0, 0.678);
+    padding: 20px;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+    margin: 0;
+	padding: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.cta-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #28A745;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+	cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #218838;
+}
+.imagem {
+    max-width: 100%; 
+    height: auto; 
+    margin: 0; 
+}
+section {
+    padding: 20px;
+    background: #e9ecef;
+    margin: 0px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
